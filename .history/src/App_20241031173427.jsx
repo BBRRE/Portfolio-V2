@@ -12,7 +12,7 @@ function App() {
     <>
       <Router>
             <Routes>
-              <BrowserRouter basename={"/Portfolio-V2"}>
+              <BrowserRouter basename={"/Portfolio-V2/"}>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/Architecture" element={<Archi />} />
                 <Route path="/Electronic Eng" element={<EEng />} />
