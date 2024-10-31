@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Archi from './Subjects/Archi.jsx'
 import CompSci from './Subjects/CompSci.jsx'
 import EEng from './Subjects/EEng.jsx'
-import Other from './Subjects/Other.jsx'
+import Other from './Subjects/other.jsx'
 import { HomePage } from './HomePage'
 
 function App() {
