@@ -1,6 +1,6 @@
 import React from 'react'
 import cs from '/assets/aaaa.png'
-import ph from 'assets/Monkey-CkR_x_Od.png'
+import ph from '/assets/monkey.png'
 
 const CompSci = () => {
   return (
