@@ -20,6 +20,7 @@ function App() {
           <Route path="/Computer-Sci" element={<CompSci />} />
           <Route path="/Other" element={<Other />} />
         </Routes>
+      </div>
     </Router>
   )
 }
