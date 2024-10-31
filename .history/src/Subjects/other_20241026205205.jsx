@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import house from '/assets/NObg.png'
-import Somalia from '/assets/Somalia.JPEG'
-import Monkey from '/assets/Monkey.png'
+import house from '../assets/NObg.png'
+import Somalia from '../assets/Somalia.JPEG'
+import Monkey from '../assets/Monkey.png'
 import { motion } from "framer-motion";
 
 const ImageWithDialog = ({ src, alt, description, link, isLinked }) => {
