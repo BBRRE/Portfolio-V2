@@ -10,6 +10,6 @@ export default defineConfig({
     assetsDir: 'assets',
     emptyOutDir: true,
   },
-  assetsInclude: ['**/*.JPEG'],
+  assetsInclude: ['**/*.JPEG', '**/*.PNG'],
 })
 

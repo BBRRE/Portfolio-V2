@@ -3,9 +3,14 @@ import { motion } from "framer-motion";
 import archi from "../assets/arch.jpg";
 import old from "../assets/Old.jpg";
 import newL from "../assets/New.jpg";
-import kitchen from "../assets/Kitchen.png";
-import balcony from "../assets/Balcony.png";
-import bathroom from "../assets/Bathroom.png";
+import render1 from "../assets/NewLevelSequence.0001.jpeg"
+import render2 from "../assets/NewLevelSequence.0002.jpeg"
+import render3 from "../assets/NewLevelSequence.0003.jpeg"
+import render4 from "../assets/NewLevelSequence.0004.jpeg"
+import render5 from "../assets/NewLevelSequence.0005.jpeg"
+import kitchen from "../assets/Kitchene.png";
+import balcony from "../assets/Balconye.png";
+import bathroom from "../assets/Bathroome.png";
 
 const Arcchi = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -85,9 +90,10 @@ const Arcchi = () => {
             onClick={() => setIsExpanded(!isExpanded)}
           >
             {/* Mobile Image */}
+            
             <motion.img
               className="object-contain rounded-sm z-10 mx-auto md:hidden"
-              src={old}
+              src={render1}
               initial="initial"
               animate={isExpanded ? "expanded" : "initial"}
               variants={imageVariants}
@@ -96,7 +102,7 @@ const Arcchi = () => {
             {/* Desktop Image */}
             <motion.img
               className="hidden md:block object-contain rounded-sm z-10"
-              src={old}
+              src={render1}
               initial="initial"
               animate={isExpanded ? "expanded" : "initial"}
               variants={desktopImageVariants}
@@ -126,8 +132,13 @@ const Arcchi = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-4 md:p-8 justify-center">
               {/* Balcony Section */}
               <div className="flex flex-col space-y-4 md:space-y-6">
-                <img 
+              <img 
                   src={balcony} 
+                  alt="Balcony view" 
+                  className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
+                />
+                <img 
+                  src={render5} 
                   alt="Balcony view" 
                   className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
                 />
@@ -146,6 +157,11 @@ const Arcchi = () => {
               <div className="flex flex-col space-y-4 md:space-y-6 md:mt-[200px]">
                 <img 
                   src={kitchen} 
+                  alt="Balcony view" 
+                  className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
+                />
+                <img 
+                  src={render2} 
                   alt="Kitchen design" 
                   className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
                 />
@@ -164,8 +180,13 @@ const Arcchi = () => {
 
               {/* Bathroom Section */}
               <div className="flex flex-col space-y-4 md:space-y-6 md:my-[-300px]">
-                <img 
+              <img 
                   src={bathroom} 
+                  alt="Balcony view" 
+                  className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
+                />
+                <img 
+                  src={render3} 
                   alt="Bathroom design" 
                   className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
                 />
@@ -188,12 +209,17 @@ const Arcchi = () => {
                   <p className="text-gray-700 leading-relaxed text-sm md:text-base ">
                   Built in the 1960s, this tower block features a typical construction style of its era: load-bearing exterior 
                   walls and central columns, with non-load-bearing interior walls. This structural arrangement provided complete freedom 
-                  in redesigning the interior layout to meet modern living standards. The renovated floor plan, created in AutoCAD, is shown below.
+                  in redesigning the interior layout to meet modern living standards. Both the old and renovated floor plan, created in AutoCAD, is shown below.
                   </p>
                 </div>
               </div>
 
               {/* Final Image */}
+              <img 
+                src={old} 
+                className="col-span-1 md:col-span-2 mt-8 w-full max-w-[1200px] mb-[-50px] mx-auto rounded-lg shadow-lg" 
+                alt="New Layout"
+              />
               <img 
                 src={newL} 
                 className="col-span-1 md:col-span-2 mt-8 w-full max-w-[1200px] mb-[100px] mx-auto rounded-lg shadow-lg" 
