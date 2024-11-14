@@ -20,8 +20,8 @@ export const HomePage = () => {
             </h1>
             
             <p className='font-inconsolata text-lg md:text-2xl w-full md:w-[500px] md:ml-[150px] mt-4 md:mt-[40px] mb-6 z-10'>
-              I'm interested in: Maths, science, Web Development and Architecture.
-
+              Aspiring Architect.
+              I'm interested in: Maths, Dcience and Web Development.
             </p>
             
             <div className='ml-4 md:ml-[150px] z-10'>
