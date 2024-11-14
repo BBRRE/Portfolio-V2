@@ -24,7 +24,7 @@ const CompSci = () => {
           <h2 className=" text-left text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800">
             Monkey Hunder Physics Problem
           </h2>
-        <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+        <p className="text-gray-700 text-sm md:text-base leading-relaxed max-w-[400px]">
         Includes mathematical proof and a more intuitive simulation to explain the Monkey and Hunter Problem  <a href="https://bbrre.github.io/Monkey-Hunter-Problem/index.html" className='underline text-gray-600'>https://bbrre.github.io/Monkey-Hunter-Problem/index.html</a>
         </p>
         </div>
