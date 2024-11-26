@@ -14,7 +14,7 @@ const CompSci = () => {
           </h2>
         <p className="text-gray-700 text-sm md:text-base leading-relaxed max-w-[400px]">
           Website to share you Travel Logs, whether its a day trip to a neighbouring city or a 3 week long vacations spanning countries. Built with react
-          and Firebase. It is still in development but I have linked a working prototype <a href="https://journey-3930f.web.app/" className='underline text-gray-600'>journey-3930f.web.app</a>
+          and Firebase. It is still in development but I have linked a working prototype <a href="https://Travel-Logs.com/" className='underline text-gray-600'>Travel-Logs.com</a>
         </p>
         </div>
       </div>
