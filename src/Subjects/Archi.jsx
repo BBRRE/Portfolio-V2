@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import archi from "../assets/arch.jpg";
-import old from "../assets/Old.jpg";
-import newL from "../assets/New.jpg";
-import render1 from "../assets/NewLevelSequence.0001.jpeg"
-import render2 from "../assets/NewLevelSequence.0002.jpeg"
-import render3 from "../assets/NewLevelSequence.0003.jpeg"
-import render4 from "../assets/NewLevelSequence.0004.jpeg"
-import render5 from "../assets/NewLevelSequence.0005.jpeg"
-import kitchen from "../assets/Kitchene.PNG";
-import balcony from "../assets/Balconye.PNG";
-import bathroom from "../assets/Bathroome.PNG";
-import logronyo from "../assets/LOGRONYO1-min.png"
-import logronyo1 from "../assets/LOGRONYO1.png"
-import logronyo2 from "../assets/LOGRONYO2.png"
-import logronyo3 from "../assets/LOGRONYO3.png"
-import logronyo4 from "../assets/LOGRONYO4.png"
+import old from "../assets/Old-min.jpg";
+import newL from "../assets/New-min.jpg";
+import render1 from "../assets/NewLevelSequence.0001-min.jpeg"
+import render2 from "../assets/NewLevelSequence.0002-min.jpeg"
+import render3 from "../assets/NewLevelSequence.0003-min.jpeg"
+import render4 from "../assets/NewLevelSequence.0004-min.jpeg"
+import render5 from "../assets/NewLevelSequence.0005-min.jpeg"
+import kitchen from "../assets/Kitchene-min.PNG";
+import balcony from "../assets/Balconye-min.PNG";
+import bathroom from "../assets/Bathroome-min.PNG";
+import logronyo from "../assets/LOGRONYO1-min-min.png"
+import logronyo1 from "../assets/LOGRONYO1-min.png"
+import logronyo2 from "../assets/LOGRONYO2-min.png"
+import logronyo3 from "../assets/LOGRONYO3-min.png"
+import logronyo4 from "../assets/LOGRONYO4-min.png"
 
 
 const Arcchi = () => {
