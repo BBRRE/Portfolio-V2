@@ -6,12 +6,12 @@ import wrd from "./assets/uuundulate.svg"
 export const HomePage = () => {
   return (
     <div className='h-screen w-full overflow-y-scroll snap-y snap-mandatory bg-[#343434]'>
-      <div className='snap-start'>
+      <div className='snap-start w-full'>
         <div className='flex flex-col w-full h-screen snap-center relative overflow-hidden text-[#bddfbd]'>
           <img 
             src={wrd} 
             alt="Background wave" 
-            className='absolute h-full lg:h-auto scale-x-[-1]  md:right-0 top-0 w-full z- md:w-auto bg-[#343434]' 
+            className='absolute h-full md:right-0 top-0 w-full z- md:w-auto bg-[#343434]' 
           />
           
           <div className='px-4 md:px-0 z-30'>
