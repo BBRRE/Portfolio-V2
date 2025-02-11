@@ -1,27 +1,27 @@
 import React from 'react'
 import ProjectsOverview from './Projects Overview';
 import arrow from "./assets/down-arrow-svgrepo-com.svg";
-import wrd from "./assets/uuundulate.svg"
+import wrd from "./assets/Portfolio Page 1.jpg"
 
 export const HomePage = () => {
   return (
-    <div className='h-screen w-full overflow-y-scroll snap-y snap-mandatory bg-[#343434]'>
+    <div className='h-screen w-full overflow-y-scroll snap-y snap-mandatory bg-[#fff6e9]'>
       <div className='snap-start'>
         <div className='flex flex-col w-full h-screen snap-center relative overflow-hidden text-[#bddfbd]'>
           <img 
-            src={wrd} 
+            src={wrd}
             alt="Background wave" 
-            className='absolute h-full lg:h-auto scale-x-[-1]  md:right-0 top-0 w-full z- md:w-auto bg-[#343434]' 
+            className='absolute h-full w-full object-cover bg-[#343434]' 
           />
           
-          <div className='px-4 md:px-0 z-30'>
-            <h1 className='font-inconsolata text-4xl md:text-8xl mt-24 md:mt-[150px] md:ml-[50px] z-20'>
+          <div className='px-4 md:px-0 z-30 text-black'>
+            <h1 className='font-inconsolata text-5xl md:text-8xl mt-24 md:mt-[150px] md:ml-[50px] z-20 text-[#bddfbd]'>
               Bilaal Bare
             </h1>
             
             <p className='font-inconsolata text-lg md:text-2xl w-full md:w-[500px] md:ml-[150px] mt-4 md:mt-[40px] mb-6 z-20'>
               Aspiring Architect. <br/>
-              I'm interested in: Maths, Science and Web Development.
+              I'm interested in: Maths, Science <br/> and Web Development.
             </p>
             
             <div className='ml-4 md:ml-[150px] z-20'>
