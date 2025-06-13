@@ -300,7 +300,7 @@ const Arcchi = () => {
 
           {/* Expanded grid section */}
           <motion.div 
-            className={`w-full max-w-[1200px] mx-auto transition-all duration-1000 ease-in-out ${isExpanded2 ? '' : 'h-96'}
+            className={`w-full max-w-[1200px] mx-auto transition-all duration-1000 ease-in-out 
               ${isExpanded2 ? 'opacity-100 mt-[-200px] md:mt-8' : 'opacity-0 mt-[-400px]'}
               `}
           >
