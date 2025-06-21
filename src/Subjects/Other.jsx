@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import house from '../assets/NObg.png'
 import Somalia from '../assets/Somalia.JPEG'
 import Monkey from '../assets/Monkey.png'
+import arch from '../assets/document_0-min.png'
 import { motion } from "framer-motion";
 
-const ImageWithDialog = ({ src, alt, description, link, isLinked }) => {
+const ImageWithDialog = ({ src, alt, description, link, isLinked, span, extra }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
@@ -25,7 +26,7 @@ const ImageWithDialog = ({ src, alt, description, link, isLinked }) => {
 
   return (
     <div 
-      className="relative"
+      className={`relative h-auto ${extra} ${'col-span-' + span}`}
     >
       <Link  to={link}> 
       <img src={src} alt={alt} className={`w-full object-cover rounded-lg ${ isLinked ? 'cursor-pointer' : 'cursor-default'}`} 
@@ -72,16 +73,11 @@ const Other = () => {
       animate="visible"
       variants={containerVariants}
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="md:grid flex flex-col md:grid-cols-3 gap-8">
           <ImageWithDialog
             src={house}
             alt="House"
             description="Observational drawing of building"
-          />
-          <ImageWithDialog
-            src={Somalia}
-            alt="Somalia"
-            description="Watch concept based on the Cartier Crash"
           />
           <ImageWithDialog
             src={Monkey}
@@ -89,6 +85,18 @@ const Other = () => {
             description="Interactive article explaining Physics problem"
             link='https://bbrre.github.io/Monkey-Hunter-Problem/index.html'
             isLinked={true}
+          />
+                    <ImageWithDialog
+            src={Somalia}
+            alt="Somalia"
+            description="Watch concept based on the Cartier Crash"
+          />
+          <ImageWithDialog
+          extra={'my-[-15%]'}
+            span = {2}
+            src={arch}
+            alt="arch"
+            description="Entry to FritsJurgens Pivot Door Sketch Contest"
           />
         </div>
       </motion.div>

@@ -8,3 +8,7 @@
     background-size: 50px 50px; /* Adjust the spacing here */
   }
 }
+
+:root{
+  background-color: #F7F0D7;
+}
